@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose.connect(process.env.LOCAL_MONGODB_URI, {
-    useNewUrlParser: true,
+    // useNewUrlParser: true,
     useUnifiedTopology: true,
 });
 
